@@ -1,0 +1,163 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #c83d06;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background: #787676;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin-top: 50px;
+}
+
+h1 {
+    text-align: center;
+    color: #333; 
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 10px;
+}
+
+input, textarea {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #5a5858;
+    border-radius: 4px;
+    background-color: #f38006;
+}
+
+button {
+    padding: 10px;
+    margin-top: 15px;
+    background-color: #d54316;
+    color: #fff; 
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;button {
+    padding: 10px 20px;
+    }
+}
+
+button:hover {
+    background-color: #f38006;
+}
+
+.navbar {
+    background-color: #171d24; 
+    padding: 10px;
+    text-align: center;
+}
+
+.navbar a {
+    color: #fffffffb; 
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+    color: #f38006;
+}
+
+.auth-form {
+    margin-bottom: 20px;
+}
+
+.auth-form label {
+    margin-top: 10px;
+}
+
+.auth-form input, .auth-form textarea {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #c54c1c;
+    border-radius: 4px;
+}
+
+.auth-form button {
+    padding: 10px;
+    margin-top: 15px;
+    color: #fff; 
+    background-color: #d54316;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.auth-form button:hover {
+    background-color: #f38006; 
+}
+
+.dashboard-content {
+    display: none;
+}
+
+.blog-card {
+    background-color: #666;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    display: inline-block;
+    margin: 10px;
+}
+
+.blog-card .content {
+    padding: 20px;
+}
+
+.blog-card .content h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.blog-card .content p {
+    font-size: 14px;
+    color: #f1eded;
+}
+
+.blog-card .content .date {
+    font-size: 12px;
+    color: #999;
+}
+
+.form-container {
+    background-color: #666; 
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+input[type="text"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #d54316;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    resize: vertical;
+    background-color: #c58f3f;
+}
+
+footer {
+    background-color: #ea4f07; 
+    padding: 10px; 
+    text-align: center;
+    color: #251e1e; 
+    font-size: 14px; 
+    clear: both;
+    border-top: 1px solid #ccc;
+  }
+  
